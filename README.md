@@ -50,8 +50,7 @@ F. Generate test data, obtain data distribution and deviation.
     title={Weld image segmentation in industrial smoke scene},
     author={Zhang, Xu and Zheng, Qingchun and Zhu, Peihao and  Zhao, Yangyang and Liu Jiwei},
     journal={Proceedings of the Romanian Academy, Series A: Mathematics, Physics, Technical Sciences, Information Science},
-    year={2024},
-    publisher={IEEE}
+    year={2024}
 }
 ```
 
