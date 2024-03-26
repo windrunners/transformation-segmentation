@@ -6,9 +6,9 @@ To this end, we developed a new transformation segmentation algorithm to solve t
 
 ## 2 Prepare data for training and verification
 A. training datasets  
-RESIDE:<https://sites.google.com/view/reside-dehaze-datasets> or 
+RESIDE: <https://sites.google.com/view/reside-dehaze-datasets> or 
 <https://www.cvmart.net/dataSets/detail/560?channel_id=op10&utm_source=cvmartmp&utm_campaign=datasets&utm_medium=article>
 
 B. test datasets  
 smoke weld:  
-link：<https://pan.baidu.com/s/15uuiMYRz7TFb1rPKC0WO4Q>  password: lqui
+link: <https://pan.baidu.com/s/15uuiMYRz7TFb1rPKC0WO4Q>  password: lqui
