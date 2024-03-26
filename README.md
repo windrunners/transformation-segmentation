@@ -13,7 +13,7 @@ B. test datasets
 smoke weld:  
 link: <https://pan.baidu.com/s/15uuiMYRz7TFb1rPKC0WO4Q>  password: lqui
 
-## 3 train and test  
+## 3 train and test for transformation net
 A. train  
 Run the "train.py" file.  
 
@@ -26,9 +26,33 @@ link: <https://github.com/facebookresearch/segment-anything>
 ### B. FastSAM
 link: <https://github.com/CASIA-IVA-Lab/FastSAM>
 
-## 5 Performance of segmented images
+## 5 Performance test for segmented images
 We used matlab program for verification. The address of the matlab program used is as follows:  
-link: <>
+link: <https://github.com/windrunners/segmentation-verification>
+
+## 6 Detailed steps
+A. 
+B.
+C.
+D.
+E.
+F.
+G.
+H.
+
+
+## 7 Citation
+'''
+@article{zhang2024Weld,
+    title={Weld image segmentation in industrial smoke scene},
+    author={Zhang, Xu and Zheng, Qingchun and Zhu, Peihao and  Zhao, Yangyang and Liu Jiwei},
+    journal={Proceedings of the Romanian Academy, Series A: Mathematics, Physics, Technical Sciences, Information Science},
+    year={2024},
+    publisher={IEEE}
+}
+'''
+
+
 
 
 
