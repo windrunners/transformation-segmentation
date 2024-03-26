@@ -42,7 +42,7 @@ H.
 
 
 ## 7 Citation
-'''
+```
 @article{zhang2024Weld,
     title={Weld image segmentation in industrial smoke scene},
     author={Zhang, Xu and Zheng, Qingchun and Zhu, Peihao and  Zhao, Yangyang and Liu Jiwei},
@@ -50,7 +50,7 @@ H.
     year={2024},
     publisher={IEEE}
 }
-'''
+```
 
 
 
