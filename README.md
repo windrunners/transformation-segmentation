@@ -12,3 +12,13 @@ RESIDE: <https://sites.google.com/view/reside-dehaze-datasets> or
 B. test datasets  
 smoke weld:  
 link: <https://pan.baidu.com/s/15uuiMYRz7TFb1rPKC0WO4Q>  password: lqui
+
+## 3 train and test  
+A. train  
+Run the "train.py" file.  
+
+B. test
+Run the "test.py" file.  
+
+## 4 Large model for segmentation image  
+### A. 
