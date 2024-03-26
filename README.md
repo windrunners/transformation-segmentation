@@ -5,7 +5,7 @@ With the continuous development of science and technology, the application of ro
 To this end, we developed a new transformation segmentation algorithm to solve the problem of weld segmentation in smoke environment.
 
 ## 2 Method
-![](https://github.com/windrunners/transformation-segmentation/tree/main/method/method.png)
+![image](https://github.com/windrunners/transformation-segmentation/tree/main/method/method.png)
 
 ## 3 Prepare data for training and verification
 A. training datasets  
