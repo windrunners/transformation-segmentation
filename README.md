@@ -6,4 +6,5 @@ To this end, we developed a new transformation segmentation algorithm to solve t
 
 ## 2 Prepare data for training and verification
 A. training datasets
-RESIDE:  <https://sites.google.com/view/reside-dehaze-datasets> or <https://www.cvmart.net/dataSets/detail/560?channel_id=op10&utm_source=cvmartmp&utm_campaign=datasets&utm_medium=article>
+RESIDE:  <https://sites.google.com/view/reside-dehaze-datasets> or 
+<https://www.cvmart.net/dataSets/detail/560?channel_id=op10&utm_source=cvmartmp&utm_campaign=datasets&utm_medium=article>
