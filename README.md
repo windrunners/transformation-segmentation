@@ -7,8 +7,6 @@ To this end, we developed a new transformation segmentation algorithm to solve t
 ## 2 Method
 ![image](https://github.com/windrunners/transformation-segmentation/tree/main/method/method.png)
 
-![image text](https://github.com/windrunners/transformation-segmentation/method/method.png "DBSCAN Performance Comparison")
-
 
 ## 3 Prepare data for training and verification
 A. training datasets  
