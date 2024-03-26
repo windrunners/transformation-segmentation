@@ -5,6 +5,6 @@ With the continuous development of science and technology, the application of ro
 To this end, we developed a new transformation segmentation algorithm to solve the problem of weld segmentation in smoke environment.
 
 ## 2 Prepare data for training and verification
-A. training datasets
-RESIDE:  <https://sites.google.com/view/reside-dehaze-datasets> or 
+A. training datasets  
+RESIDE:<https://sites.google.com/view/reside-dehaze-datasets> or 
 <https://www.cvmart.net/dataSets/detail/560?channel_id=op10&utm_source=cvmartmp&utm_campaign=datasets&utm_medium=article>
