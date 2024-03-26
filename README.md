@@ -5,8 +5,7 @@ With the continuous development of science and technology, the application of ro
 To this end, we developed a new transformation segmentation algorithm to solve the problem of weld segmentation in smoke environment.
 
 ## 2 Method
-![iamge](https://github.com/windrunners/transformation-segmentation/tree/main/method/method.png)
-
+![](https://github.com/windrunners/transformation-segmentation/tree/main/method/method.png)
 
 ## 3 Prepare data for training and verification
 A. training datasets  
@@ -17,7 +16,7 @@ B. test datasets
 smoke weld:  
 link: <https://pan.baidu.com/s/15uuiMYRz7TFb1rPKC0WO4Q>  password: lqui
 
-## 4 train and test for transformation net
+## 4 train and test for feature transformation
 A. train  
 Run the "train.py" file.  
 
