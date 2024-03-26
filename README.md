@@ -5,7 +5,7 @@ With the continuous development of science and technology, the application of ro
 To this end, we developed a new transformation segmentation algorithm to solve the problem of weld segmentation in smoke environment.
 
 ## 2 Method
-![image](https://github.com/windrunners/transformation-segmentation/tree/main/method/method.png)
+In view of the complex working conditions in the weld field, this paper proposes a method for weld image segmentation. The proposed large model of weld segmentation can adapt to different smoke environments and has good adaptability to multiple smoke concentrations. Compared with the combination of defogging and large segmentation models, the proposed algorithm has higher accuracy of weld segmentation.
 
 ![image](https://github.com/windrunners/transformation-segmentation/blob/main/method/method.png)
 
