@@ -20,5 +20,14 @@ Run the "train.py" file.
 B. test  
 Run the "test.py" file.  
 
-## 4 Large model for segmentation image  
-### A. 
+## 4 Segmentation net based on pre-training model
+### A. SAM  
+link: <https://github.com/facebookresearch/segment-anything>  
+### B. FastSAM
+link: <https://github.com/CASIA-IVA-Lab/FastSAM>
+
+
+
+
+
+
