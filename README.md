@@ -4,6 +4,10 @@
 With the continuous development of science and technology, the application of robotics in the industrial field has gradually become a key factor to promote production efficiency and quality improvement. Among them, the application of weld grinding automation has brought significant changes to the industrial field. Robotic weld grinding automation is the use of advanced machine learning, visual recognition, and motion control techniques to enable robots to accurately perceive the position and shape of the weld and automatically execute the grinding process. 
 To this end, we developed a new transformation segmentation algorithm to solve the problem of weld segmentation in smoke environment.
 
+The study of weld image segmentation is inseparable from the existing image segmentation foundation. Weld segmentation can be roughly divided into a variety of models, and the specific model is shown in Figure 1. Figure 1 (a) shows the supervised method, and the difficulty is that a large labeled weld data sets are required. Figure 1 (b) is an unsupervised method, but this method has some difficulties in weld segmentation with smoke environment. At present, the weld segmentation in smoke environment cannot be effectively solved by directly using the existing segmentation model. Under such conditions, this paper proposes the model in Figure 1 (c), which is a special image segmentation model applied in the weld field.
+
+
+
 ## 2 Method
 In view of the complex working conditions in the weld field, this paper proposes a method for weld image segmentation. The proposed large model of weld segmentation can adapt to different smoke environments and has good adaptability to multiple smoke concentrations. Compared with the combination of defogging and large segmentation models, the proposed algorithm has higher accuracy of weld segmentation.
 
