@@ -17,7 +17,7 @@ link: <https://pan.baidu.com/s/15uuiMYRz7TFb1rPKC0WO4Q>  password: lqui
 A. train  
 Run the "train.py" file.  
 
-B. test
+B. test  
 Run the "test.py" file.  
 
 ## 4 Large model for segmentation image  
