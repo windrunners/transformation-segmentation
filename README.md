@@ -6,6 +6,7 @@ To this end, we developed a new transformation segmentation algorithm to solve t
 
 The study of weld image segmentation is inseparable from the existing image segmentation foundation. Weld segmentation can be roughly divided into a variety of models, and the specific model is shown in Figure 1. Figure 1 (a) shows the supervised method, and the difficulty is that a large labeled weld data sets are required. Figure 1 (b) is an unsupervised method, but this method has some difficulties in weld segmentation with smoke environment. At present, the weld segmentation in smoke environment cannot be effectively solved by directly using the existing segmentation model. Under such conditions, this paper proposes the model in Figure 1 (c), which is a special image segmentation model applied in the weld field.
 
+![image](https://github.com/windrunners/transformation-segmentation/blob/main/method/segmentation%20mode.png)
 
 
 ## 2 Method
