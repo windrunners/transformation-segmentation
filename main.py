@@ -1,15 +1,10 @@
-import torch,os,sys,torchvision,argparse
-import torchvision.transforms as tfs
-from metrics import psnr,ssim
+
 from models import *
-import time,math
-import numpy as np
+import time
 from torch.backends import cudnn
 from torch import optim
-import torch,warnings
+import warnings
 from torch import nn
-#from tensorboardX import SummaryWriter
-import torchvision.utils as vutils
 warnings.filterwarnings('ignore')
 from option import opt,model_name,log_dir
 from data_utils import *
@@ -18,7 +13,7 @@ print('log_dir :',log_dir)
 print('model_name:',model_name)
 
 models_={
-	'ffa':FFA(gps=opt.gps,blocks=opt.blocks),
+	'Transformation': Transformation(),
 }
 loaders_={
 	'its_train':ITS_train_loader,

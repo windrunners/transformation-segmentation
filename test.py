@@ -1,17 +1,13 @@
-import os,argparse
-import numpy as np
+import argparse
 from PIL import Image
 from models import *
 import torch
-import torch.nn as nn
-import torchvision.transforms as tfs 
+import torchvision.transforms as tfs
 import torchvision.utils as vutils
-import matplotlib.pyplot as plt
-from torchvision.utils import make_grid
 abs=os.getcwd()+'/'
 import time
 
-# 记录开始时间
+# record start time
 start_time = time.time()
 
 parser=argparse.ArgumentParser()
@@ -19,18 +15,15 @@ parser.add_argument('--task',type=str,default='its',help='its or ots')
 parser.add_argument('--test_imgs',type=str,default='test_imgs',help='Test imgs folder')
 opt=parser.parse_args()
 dataset=opt.task
-gps=3
-blocks=19
 img_dir=abs+opt.test_imgs+'/'
-output_dir=abs+f'pred_FFA_{dataset}/'
+output_dir=abs+f'pred_{dataset}/'
 print("pred_dir:",output_dir)
 if not os.path.exists(output_dir):
     os.mkdir(output_dir)
-model_dir=abs+f'trained_models/{dataset}_train_ffa_{gps}_{blocks}.pk'
+model_dir=abs+f'trained_models/{dataset}_train_Transformation.pk'
 device='cuda' if torch.cuda.is_available() else 'cpu'
 ckp=torch.load(model_dir,map_location=device)
-net=FFA(gps=gps,blocks=blocks)
-# net=nn.DataParallel(net)
+net=Transformation()
 net.load_state_dict(ckp['model'])
 net.eval()
 for im in os.listdir(img_dir):
@@ -44,11 +37,10 @@ for im in os.listdir(img_dir):
     with torch.no_grad():
         pred = net(haze1)
     ts=torch.squeeze(pred.clamp(0,1).cpu())
-    # tensorShow([haze_no,pred.clamp(0,1).cpu()],['haze','pred'])
-    vutils.save_image(ts,output_dir+im.split('.')[0]+'_FFA.jpg')
+    vutils.save_image(ts,output_dir+im.split('.')[0]+'_transformation.jpg')
 
-# 记录结束时间
+# record end time
 end_time = time.time()
-# 计算运行时间
+# record running time
 total_time = end_time - start_time
-print(f"程序运行总时间: {total_time} 秒")
+print(f"Total running time of the program: {total_time} s")
