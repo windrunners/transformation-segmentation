@@ -46,7 +46,7 @@ A. Download the programs and data linked above.
 B. Execute the training task of feature transformation.  
 C. The image with smoke is transformed to generate intermediate potential features.  
 D. Unsupervised segmentation is performed using the pre-trained model SAM or FastSAM.  
-E. Continue to implement segmentation performance verification using the performance test program.
+E. Continue to implement segmentation performance verification using the performance test program.  
 F. Generate test data, obtain data distribution and deviation.
 
 ## 8 Citation
