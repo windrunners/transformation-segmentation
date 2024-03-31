@@ -24,6 +24,9 @@ B. test datasets
 smoke weld:  
 link: <https://pan.baidu.com/s/15uuiMYRz7TFb1rPKC0WO4Q>  password: lqui
 
+C. final training parameters  
+Our trained model parameters are in "trained_models/our best model". If our parameters are used, please move the pk file to the trained_models folder
+
 ## 4 train and test for feature transformation
 A. train  
 Run the "train.py" file.  
